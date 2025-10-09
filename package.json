@@ -1,0 +1,19 @@
+{
+    "name": "app-indexacao-processo-dev",
+    "version": "1.0.0",
+    "description": "Indexação de Processo – Flow.Doc9: Organiza documentos e metadados de um processo para uso em fluxos automáticos",
+    "license": "MIT",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsc --watch",
+        "clean": "rm -rf dist"
+    },
+    "dependencies": {
+        "docgo-sdk": "github:doc9-oficial/docgo-sdk-js"
+    },
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0"
+    }
+}
